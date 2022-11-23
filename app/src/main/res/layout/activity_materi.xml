@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".materipdf">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A. Komputer dan Komponen Penyusunnya
+Secara umum, komputer adalah
+peralatan elektronik yang menerima
+masukan data, mengolah data, dan
+memberikan hasil keluaran dalam
+bentuk informasi, baik itu berupa
+gambar, teks, suara, maupun video.
+Secara sederhana, sebuah komputer
+menerima masukan dari peranti
+masukan, memproses masukan
+tersebut, dan menghasilkan output.
+Gambaran umum sebuah komputer
+tampak pada Gambar 4.2, di mana “data” (teks, suara, klik, sentuhan, atau
+lainnya) dari peranti masukan akan diproses oleh Central Processing Unit (CPU)
+untuk menghasilkan output berupa tampilan informasi, sinyal reaksi, dll. yang
+direpresentasikan melalui peranti keluaran.
+1. Sistem Komputer
+Sistem Komputer terdiri atas beberapa bagian berikut.
+1. Perangkat Keras (Hardware)
+2. Perangkat Lunak (Software)
+3. Pengguna
+Semua komponen tersebut saling mendukung sehingga komputer dapat
+beroperasi. Perangkat keras komputer membutuhkan perangkat lunak agar
+komputer bisa dihidupkan dan difungsikan. Jika hardware yang tidak disertai
+software, komputer hanyalah sebuah mesin yang tidak berguna."
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="17dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

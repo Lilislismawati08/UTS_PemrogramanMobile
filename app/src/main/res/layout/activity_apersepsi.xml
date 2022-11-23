@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apersepsi">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mungkin kalian pernah melihat bagaimana peranti elektronik bekerja,seperti mesin cuci, mesin pemotong rumput, dll. Komputer sebenarnya sama halnya dengan peranti lain, tetapi tampak lebih kompleks. Pekerjaan yang dilakukan oleh komputer dilakukan oleh banyak komponennya. Komputer juga memiliki arsitektur, yaitu tatanan komponen yang dirancang oleh pembuatnya. Pada materi ini, kalian akan belajar lebih dalam bagaimana sistem komputer bekerja."
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="17dp"
+            />
+    </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
